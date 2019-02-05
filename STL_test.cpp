@@ -27,5 +27,6 @@ void test_sort(vector<int>& v) {
 int main() {
 	srand(time(nullptr));
 	auto v = fill_rand_int(100);
+	test_sort(v);
 	return 0;
 }
